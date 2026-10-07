@@ -1,0 +1,41 @@
+# Java / Maven
+target/
+*.class
+*.log
+.mvn/wrapper/maven-wrapper.jar
+
+# Node / front
+node_modules/
+frontend/dist/
+*.tsbuildinfo
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# IDEs
+.idea/
+*.iml
+.vscode/
+.vs/
+.claude/
+
+# SO
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Datos de la app (volúmenes de Docker): nunca al repo
+datos/
+salida/
+
+# Binarios pesados que se descargan en ejecución o en el build
+*.th
+*.pt
+*.wav
+*.mp3
+*.flac
+*.m4a
+*.webm
